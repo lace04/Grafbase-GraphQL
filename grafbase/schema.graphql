@@ -1,0 +1,5 @@
+type tipdoc @model {
+  id: ID!
+  initTipdoc: String! @unique
+  tipdoc: String!
+}
